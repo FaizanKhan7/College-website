@@ -143,3 +143,91 @@
     background-color: inherit;
     color: black;
 }
+
+.about-the-company {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.About-us {
+    width: 50%;
+}
+
+.About-us h2 {
+    font-size: 3rem;
+}
+
+.About-us p {
+    font-size: 2rem;
+}
+
+.Quick-links {
+    width: 50%;
+    /* margin-left: 2rem; */
+}
+
+.Quick-links h2 {
+    font-size: 2rem;
+}
+
+.Quick-links ul {
+    list-style: none;
+}
+
+.Quick-links ul li {
+    padding: 1rem 0;
+}
+
+.Quick-links ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 2rem;
+}
+
+.Support {
+    width: 50%;
+    /* margin-left: 3rem; */
+}
+
+.Support h2 {
+    font-size: 2rem;
+}
+
+.Support ul {
+    list-style: none;
+}
+
+.Support ul li {
+    padding: 1rem 0;
+}
+
+.Support ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 2rem;
+}
+
+.Contact-Us {
+    width: 50%;
+    /* margin-left: 3rem; */
+}
+
+.Contact-Us h2 {
+    font-size: 2rem;
+}
+
+.Contact-Us ul {
+    list-style: none;
+}
+
+.Contact-Us ul li {
+    padding: 1rem 0;
+}
+
+.Contact-Us ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 2rem;
+}
