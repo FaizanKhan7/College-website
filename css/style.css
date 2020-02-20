@@ -1,3 +1,4 @@
+
                                    :root {
                                       --primary-color: rgba(0, 0, 0, 0.55);
                                       --overlay-color: rgba(73, 68, 68, 0.329);
@@ -209,6 +210,50 @@
                                       float: center;
                                       display: block;
                                   }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: slateblue;
+}
+p{
+    color: rgb(139, 129, 206);
+}
+.button{
+    width: 125px;
+    height: 35px;
+    background-color: slateblue;
+    color: white;
+}
+
+ /* media for laptop */
+@media screen and (min-width: 1024px) {
+    h1{
+        margin-left: 40%;
+    }
+    header{
+        margin-left: 90px;
+   }
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+     }
+    .boxes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 300px;
+    }
+    }
+              
+
                                   /* lower-layout */
                                   
                                   .about-the-company {
@@ -364,4 +409,4 @@
                                       .about-clg button {
                                           width: 30%;
                                       }
-                                  }
+}
