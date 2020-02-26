@@ -1,412 +1,414 @@
+:root {
+    --primary-color: rgb(0, 0, 0.55);
+    --overlay-color: rgba(36, 36, 1, 0.514);
+}
 
-                                   :root {
-                                      --primary-color: rgba(0, 0, 0, 0.55);
-                                      --overlay-color: rgba(73, 68, 68, 0.329);
-                                  }
-                                  
-                                  * {
-                                      margin: 0;
-                                      padding: 0;
-                                      box-sizing: border-box;
-                                      font-size: 16px;
-                                  }
-                                  /* uppper-layout */
-                                  
-                                  .college-name {
-                                      font-size: 2rem;
-                                      color: rgb(55, 55, 204);
-                                      margin-bottom: 5px;
-                                      width: 100%;
-                                  }
-                                  
-                                  .container1 {
-                                      background-color: rgb(230, 240, 247);
-                                      color: black;
-                                      width: 100%;
-                                      max-width: 100%;
-                                      max-height: 20%;
-                                  }
-                                  
-                                  .container1 ul {
-                                      display: flex;
-                                      flex-wrap: wrap;
-                                      list-style: none;
-                                      justify-content: space-evenly;
-                                      padding: 10px;
-                                  }
-                                  
-                                  .container1 ul li {
-                                      margin-bottom: 1rem;
-                                  }
-                                  
-                                  .container1 a {
-                                      text-decoration: none;
-                                      background-color: rgb(176, 191, 204);
-                                      color: black;
-                                      font-size: 2rem;
-                                      padding-right: 5px;
-                                  }
-                                  
-                                  .container1 a:hover {
-                                      border-bottom: 3px solid rgb(124, 39, 39);
-                                  }
-                                  
-                                  .menu-right {
-                                      display: flex;
-                                  }
-                                  
-                                  .menu-right button {
-                                      font-size: 2rem;
-                                      border: 2px solid rgb(78, 133, 151);
-                                      padding: 5px;
-                                      background-color: lightblue;
-                                  }
-                                  
-                                  .menu-right button:hover {
-                                      background-color: rgb(98, 161, 182);
-                                  }
-                                  
-                                  #main-header {
-                                      background-color: var(--overlay-color);
-                                      color: #fff;
-                                      max-width: 100%;
-                                      max-height: 100%;
-                                      position: relative;
-                                  }
-                                  
-                                  .bg-dark::before {
-                                      content: '';
-                                      background: url(images/bacground-img.jpg) no-repeat center center/cover;
-                                      position: absolute;
-                                      top: 0;
-                                      left: 0;
-                                      width: 100%;
-                                      height: 100%;
-                                      z-index: -1;
-                                  }
-                                  
-                                  .main-content {
-                                      width: 100%;
-                                  }
-                                  
-                                  .main-content h1 {
-                                      font-size: 3rem;
-                                      padding: 30px 20px;
-                                  }
-                                  
-                                  .main-content p {
-                                      font-size: 2rem;
-                                      padding: 30px 20px;
-                                  }
-                                  
-                                  .wrap-btn {
-                                      display: flex;
-                                      padding: 30px 20px;
-                                  }
-                                  
-                                  .red-btn {
-                                      font-size: 2rem;
-                                      border: 3px solid white;
-                                      border-radius: 7px;
-                                      padding: 8px;
-                                      margin-right: 10px;
-                                      background-color: red;
-                                      color: white;
-                                  }
-                                  
-                                  .red-btn:hover {
-                                      background-color: black;
-                                  }
-                                  
-                                  .learn-btn {
-                                      font-size: 2rem;
-                                      padding: 8px;
-                                      border: 3px solid white;
-                                      border-radius: 7px;
-                                      background-color: inherit;
-                                      color: white;
-                                  }
-                                  
-                                  .learn-btn:hover {
-                                      background-color: white;
-                                      color: black;
-                                  }
-                                  
-                                  .college {
-                                      margin: 1rem;
-                                      display: flex;
-                                      flex-wrap: wrap;
-                                  }
-                                  
-                                  .about-clg {
-                                      width: 100%;
-                                  }
-                                  
-                                  .about-clg h1 {
-                                      font-size: 3rem;
-                                  }
-                                  
-                                  .about-clg p {
-                                      font-size: 2rem;
-                                  }
-                                  
-                                  .about-clg button {
-                                      font-size: 2rem;
-                                      margin: 8px 0;
-                                      padding: 8px;
-                                      border: 3px solid black;
-                                      border-radius: 7px;
-                                      background-color: inherit;
-                                      color: black;
-                                  }
-                                  /* Courses Offered */
-                                  
-                                  .title h1 {
-                                      color: darkslategrey;
-                                      background-color: tomato;
-                                      text-align: center;
-                                      padding-top: 1rem;
-                                      width: 100%;
-                                      height: 4rem;
-                                      position: fixed;
-                                  }
-                                  
-                                  .title p {
-                                      color: darkslategrey;
-                                      background-color: palegoldenrod;
-                                      text-align: center;
-                                      padding: 5rem 1rem;
-                                  }
-                                  
-                                  .courses {
-                                      padding: 10px;
-                                      background-color: palegoldenrod;
-                                      width: 100%;
-                                  }
-                                  
-                                  .courses h2 {
-                                      background-color: palegoldenrod;
-                                      color: darkslategray;
-                                      text-align: center;
-                                      float: center;
-                                      padding-top: 1rem;
-                                  }
-                                  
-                                  .courses p {
-                                      background-color: papayawhip;
-                                      color: darkslategray;
-                                      text-align: center;
-                                      float: center;
-                                      padding-top: 1rem;
-                                  }
-                                  
-                                  .courses button {
-                                      color: rgb(220, 228, 228);
-                                      background-color: grey;
-                                      padding: 1rem 3rem;
-                                      border-radius: 2rem;
-                                      border-color: black;
-                                      margin: 1rem 5rem;
-                                      float: center;
-                                      display: block;
-                                  }
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
-    color: slateblue;
 }
-p{
-    color: rgb(139, 129, 206);
+
+body {
+    font-size: 16px;
 }
-.button{
-    width: 125px;
-    height: 35px;
-    background-color: slateblue;
+
+
+/* uppper-layout */
+
+.college-name {
+    font-size: 2rem;
+    color: rgb(55, 55, 204);
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.container1 {
+    background-color: rgb(230, 240, 247);
+    color: black;
+}
+
+.container1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.container1 ul li {
+    margin-bottom: 1rem;
+}
+
+.container1 a {
+    text-decoration: none;
+    background-color: rgb(176, 191, 204);
+    color: black;
+    font-size: 1.5rem;
+    padding-right: 5px;
+}
+
+.container1 a:hover {
+    border-bottom: 3px solid rgb(124, 39, 39);
+}
+
+.menu-right {
+    display: flex;
+}
+
+.menu-right button {
+    font-size: 1.5rem;
+    border: 2px solid rgb(78, 133, 151);
+    padding: 5px;
+    background-color: lightblue;
+}
+
+.menu-right button:hover {
+    background-color: rgb(98, 161, 182);
+}
+
+#main-header {
+    background-color: var(--overlay-color);
+    color: #fff;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.bg-dark::before {
+    content: '';
+    background: url(images/bacground-img.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.main-content h1 {
+    text-align: left;
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 30px 20px;
+}
+
+.main-content p {
+    text-align: left;
+    color: aliceblue;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    padding: 30px 20px;
+}
+
+.wrap-btn {
+    display: flex;
+    padding: 30px 20px;
+}
+
+.red-btn {
+    font-size: 1.2rem;
+    border: 3px solid white;
+    border-radius: 7px;
+    padding: 8px;
+    margin-right: 10px;
+    background-color: red;
     color: white;
 }
 
- /* media for laptop */
-@media screen and (min-width: 1024px) {
-    h1{
-        margin-left: 40%;
-    }
-    header{
-        margin-left: 90px;
-   }
-    .container{
-        display: flex;
-        justify-content: space-evenly;
-     }
-    .boxes{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .box{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 300px;
-    }
-    }
-              
+.red-btn:hover {
+    background-color: black;
+}
 
-                                  /* lower-layout */
-                                  
-                                  .about-the-company {
-                                      background: url(images/background-bottom.jpg) no-repeat center center/cover;
-                                      width: 100%;
-                                      height: 100%;
-                                      color: white;
-                                      display: flex;
-                                      flex-wrap: wrap;
-                                  }
-                                  
-                                  .About-us {
-                                      width: 50%;
-                                  }
-                                  
-                                  .About-us h2 {
-                                      font-size: 3rem;
-                                  }
-                                  
-                                  .About-us p {
-                                      font-size: 2rem;
-                                      margin-right: 1.5rem;
-                                      color: #ccc;
-                                  }
-                                  
-                                  .Quick-links {
-                                      width: 50%;
-                                  }
-                                  
-                                  .Quick-links h2 {
-                                      font-size: 3rem;
-                                  }
-                                  
-                                  .Quick-links ul {
-                                      list-style: none;
-                                  }
-                                  
-                                  .Quick-links ul li {
-                                      padding: 1rem 0;
-                                  }
-                                  
-                                  .Quick-links ul li a {
-                                      text-decoration: none;
-                                      color: #ccc;
-                                      font-size: 2rem;
-                                  }
-                                  
-                                  .Quick-links ul li a:hover {
-                                      color: white;
-                                  }
-                                  
-                                  .Support {
-                                      width: 50%;
-                                  }
-                                  
-                                  .Support h2 {
-                                      font-size: 3rem;
-                                  }
-                                  
-                                  .Support ul {
-                                      list-style: none;
-                                  }
-                                  
-                                  .Support ul li {
-                                      padding: 1rem 0;
-                                  }
-                                  
-                                  .Support ul li a {
-                                      text-decoration: none;
-                                      color: #ccc;
-                                      font-size: 2rem;
-                                  }
-                                  
-                                  .Support ul li a:hover {
-                                      color: white;
-                                  }
-                                  
-                                  .Contact-Us {
-                                      width: 50%;
-                                      /* margin-left: 3rem; */
-                                  }
-                                  
-                                  .Contact-Us h2 {
-                                      font-size: 3rem;
-                                  }
-                                  
-                                  .Contact-Us ul {
-                                      list-style: none;
-                                  }
-                                  
-                                  .Contact-Us ul li {
-                                      padding: 1rem 0;
-                                  }
-                                  
-                                  .Contact-Us ul li a {
-                                      text-decoration: none;
-                                      color: #ccc;
-                                      font-size: 2rem;
-                                  }
-                                  
-                                  .Contact-Us ul li a:hover {
-                                      color: white;
-                                  }
-                                  /*media queries by gufran*/
-                                  
-                                  @media (min-width:768px) and (max-width:1440px) {
-                                      .courses {
-                                          width: 100%;
-                                          display: flex;
-                                          justify-content: space-evenly;
-                                          align-items: left;
-                                          flex-wrap: wrap;
-                                      }
-                                      .mech {
-                                          width: 30%;
-                                          height: 50%;
-                                          margin: 2rem;
-                                      }
-                                      .cs {
-                                          width: 30%;
-                                          height: 50%;
-                                          margin: 2rem;
-                                      }
-                                      .civil {
-                                          width: 30%;
-                                          height: 50%;
-                                          margin: 2rem;
-                                      }
-                                      .ee {
-                                          width: 30%;
-                                          height: 50%;
-                                          margin: 2rem;
-                                      }
-                                  }
-                                  /* media Queries by faizan */
-                                  
-                                  @media screen and (min-width: 1024px) {
-                                      .About-us {
-                                          width: 25%;
-                                      }
-                                      .Quick-links {
-                                          width: 25%;
-                                      }
-                                      .Support {
-                                          width: 25%;
-                                      }
-                                      .Contact-Us {
-                                          width: 25%;
-                                      }
-                                  }
-                                  
-                                  @media screen and (min-width:375px) {
-                                      .about-clg button {
-                                          width: 30%;
-                                      }
+.learn-btn {
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: inherit;
+    color: white;
+}
+
+.learn-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.college {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.47942927170868344) 0%, rgba(183, 183, 207, 0.8295693277310925) 50%, rgba(70, 135, 148, 0.7203256302521008) 100%);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 100px; */
+}
+
+.about-clg h1 {
+    color: #3f3f3f;
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+.about-clg p {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.about-clg button {
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border: 3px solid black;
+    border-radius: 7px;
+    background-color: inherit;
+    color: black;
+}
+
+.about-clg button:hover {
+    background-color: lightblue;
+}
+
+.clg-logo {
+    text-align: center;
+    justify-content: center;
+}
+
+.ghousia {
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* Courses Offered- by gufran*/
+
+h1.offered {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.courses-offered {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 2rem 3rem;
+}
+
+.engg h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.engg p {
+    font-size: 1.2rem;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.engg button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.engg button:hover {
+    opacity: 0.9;
+}
+
+
+/* for students -by akif */
+
+h1.students {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.box h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.box p {
+    font-size: 1.2rem;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.box button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+
+/* lower layout */
+
+.about-the-company {
+    background: url(images/background-bottom.jpg) no-repeat center center/cover;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 1rem;
+    padding-bottom: 3rem;
+}
+
+.About-us {
+    width: 50%;
+}
+
+.About-us h2 {
+    font-size: 3rem;
+}
+
+.About-us p {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: #ccc;
+}
+
+.Quick-links {
+    width: 50%;
+}
+
+.Quick-links h2 {
+    font-size: 3rem;
+}
+
+.Quick-links ul {
+    list-style: none;
+}
+
+.Quick-links ul li {
+    padding: 1rem 0;
+}
+
+.Quick-links ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 2rem;
+}
+
+.Quick-links ul li a:hover {
+    color: white;
+}
+
+.Support {
+    width: 50%;
+}
+
+.Support h2 {
+    font-size: 3rem;
+}
+
+.Support ul {
+    list-style: none;
+}
+
+.Support ul li {
+    padding: 1rem 0;
+}
+
+.Support ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 2rem;
+}
+
+.Support ul li a:hover {
+    color: white;
+}
+
+.Contact-Us {
+    width: 50%;
+    /* margin-left: 3rem; */
+}
+
+.Contact-Us h2 {
+    font-size: 3rem;
+}
+
+.Contact-Us ul {
+    list-style: none;
+}
+
+.Contact-Us ul li {
+    padding: 1rem 0;
+}
+
+.Contact-Us ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 2rem;
+}
+
+.Contact-Us ul li a:hover {
+    color: white;
+}
+
+
+/* media queries */
+
+@media screen and (min-width: 320px) {
+    .img {
+        width: 100%;
+    }
+    .college {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .clg-logo {
+        margin-top: 2rem;
+    }
+    .ghousia {
+        display: none;
+    }
+    .courses-offered {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-the-company {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:700px) {
+    .college {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .ghousia {
+        display: block;
+        margin-top: 30px;
+    }
+    .about-the-company {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .courses-offered {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-the-company {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
